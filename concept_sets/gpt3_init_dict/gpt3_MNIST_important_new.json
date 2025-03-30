@@ -1,0 +1,49 @@
+{
+    "digit zero": [
+        "a closed, circular shape",
+        "no other markings or segments inside the circle"
+    ],
+    "digit one": [
+        "a single, vertical line",
+        "relatively thin and straight"
+    ],
+    "digit two": [
+        "A closed loop at the top.",
+        "Connects the loop to the base.  While the angle might vary slightly, this downward slant is key.",
+        "For recognizing something as a \"digit two\":"
+    ],
+    "digit three": [
+        "a diagonal line extending from the loop downward and to the right",
+        "a loop at the top",
+        "a loop at the bottom"
+
+    ],
+    "digit four": [
+        "a single, vertical stroke",
+        "a horizontal stroke crossing the vertical stroke approximately in the middle",
+        "a short, vertical stroke extending downwards from the lower intersection of the vertical and horizontal strokes"
+    ],
+    "digit five": [
+        "an oblique stroke ",
+        "a horizontal stroke connecting to the oblique stroke",
+        "a vertical stroke connecting to the horizontal stroke"],
+    "digit six": [
+        "a closed loop at the top",
+        "a diagonal line extending downwards from the bottom of the loop",
+        "a vertical line extending downwards from the loop"
+    ],
+    "digit seven": [
+        "a slanted, horizontal line at the top",
+        "a vertical line extending downwards from the top line"
+    ],
+    "digit eight": [
+        "a closed loop on its left",
+        "a closed loop on its right",
+        "the two loops are connected",
+        "a vertical line extending downwards from the connection of the two loops"],
+    "digit nine": [
+        "a closed loop at the top",
+        "a vertical line extending downwards from the loop"
+       
+    ]
+}

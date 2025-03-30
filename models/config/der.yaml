@@ -1,0 +1,28 @@
+seq-cifar100:
+  dataset_config: xder
+  2000:
+    alpha: 0.3
+    lr: 0.03
+    model: der 
+
+seq-cub200:
+  dataset_config: xder
+  500:
+    alpha: 0.3
+    lr: 0.03
+    model: der
+
+seq-imagenet-r:
+  dataset_config: xder
+  2000:
+    alpha: 0.3
+    lr: 0.03
+    model: der    
+
+
+seq-cifar10:
+  dataset_config: default
+  2000:
+    alpha: 0.3
+    lr: 0.03
+    model: der    
