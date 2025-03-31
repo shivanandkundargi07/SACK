@@ -4,3 +4,6 @@ goto: utils-->training.py (in the while loop before training each epoch is SACK)
 
 To see Dissect and Score Module:
 goto: integrated_dissect_score.py
+
+
+to check sack on icarl run icarl_sack.sh(configure paths in integrated_dissect_score.py before running)
