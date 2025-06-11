@@ -16,9 +16,6 @@
 
 ---
 
-
-
-
 ## 📦 Installation
 
 ```bash
@@ -26,18 +23,32 @@ git clone https://github.com/<your-username>/sack-cl.git
 cd sack-cl
 pip install -r requirements.txt
 
-> 📁 **Important**: Before running any experiments, please update `paths.py` with your local directory paths for datasets, logs, and saved models.
+```
 
-Edit the following fields in `paths.py`:
+## 🔧 Example Scripts
 
-```python
-# paths.py
+We provide example bash scripts for running SACK with different continual learning methods.
 
-# Path to your dataset root directory
-DATA_ROOT = "/your/local/path/to/datasets"
+### Example: Run SACK with iCaRL
 
-# Path to store training logs
-LOG_DIR = "/your/local/path/to/logs"
+```bash
+bash scripts/icarl.sh
 
-# Path to save model checkpoints
-MODEL_DIR = "/your/local/path/to/models"
+```
+
+
+## 🙏 Acknowledgements
+
+This repository builds upon the excellent [Mammoth](https://github.com/aimagelab/mammoth) continual learning framework by AIMAGELAB. We thank the authors for providing a well-structured and extensible codebase that facilitated rapid integration and benchmarking of our method.
+
+If you find this repository useful, please consider also citing the original Mammoth paper:
+
+```bibtex
+@inproceedings{maracani2023mammoth,
+  title={Mammoth: A Flexible and Modular Framework for Continual Learning},
+  author={Maracani, Andrea and Buzzega, Pietro and Boschini, Matteo and Calderara, Simone},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  year={2023}
+}
+
+```
